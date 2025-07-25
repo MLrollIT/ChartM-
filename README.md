@@ -19,9 +19,7 @@
 ## 🎉 What's New
 
 
-- **[2025.06.18]** 🔧 ChartMimic has been integrated into [VLMEvalKit](https://github.com/open-compass/VLMEvalKit/pull/1056). Welcome to use ChartMimic through [VLMEvalKit](https://github.com/open-compass/VLMEvalKit/pull/1056)! Special thanks to the VLMEvalKit team.
-- **[2025.02.01]** 🥳 ChartMimic is accepted by ICLR 2025.
-- **[2024.06.13]** 📣 ChartMimic is released.
+- **[2025.07.04]** 🥳 ChartM³ is accepted by ACM Multimedia 2025.
 
 ## 🎏 Introduction
 
