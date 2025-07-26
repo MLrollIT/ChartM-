@@ -19,8 +19,8 @@
 ## 🎉 What's New
 
 
-- **[2025.07.04]** 🥳 ChartM$^3$ is accepted by ACM Multimedia 2025.
-- **[2025.07.07]** 📣 ChartM立方 dataset is released on hugging face.
+- **[2025.07.04]** 🥳 ChartM³ is accepted by ACM Multimedia 2025.
+- **[2025.07.07]** 📣 ChartM³ dataset is released on hugging face.
 
 ## 🎏 Introduction
 Chart$\text{M}^3$ is a novel benchmark for multimodal chart editing, enabling fine-grained control over chart modifications through a combination of natural language and visual indicators. It includes 1,000 samples spanning varying levels of complexity and offers comprehensive evaluation metrics for both visual and code accuracy. 
@@ -89,3 +89,18 @@ test_dataset
   
 We provide the test_dataset in ShareGPT format used under the experimental conditions, as seen in **test_dataset_box.json** and **test_dataset_text.json**.
 
+### Evaluate Models
+`python eval_ΔSSIM.py ./test_dataset.json   modle_output_path`
+
+The model output should be organized in this format.
+```
+.
+model_output_path
+│ └── Bar_000ab8cfbd281c5b
+│ │ ├── code.py
+│ │ ├── Edit_figure.png
+│ └── ...
+```
+- code.py: This file contains the code output by the model and used to generate the chart.
+
+- Edit_figure.png: This is the image of the chart generated from the code.py after modifications have been applied by model.
