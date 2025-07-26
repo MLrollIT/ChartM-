@@ -1,0 +1,73 @@
+# Importing required libraries
+import matplotlib.pyplot as plt
+
+# Dataset
+cloud_cover_duration_in_mins = [5, 7, 9, 12, 15, 18, 20, 25, 27, 29, 32, 35, 37, 40, 42, 45, 47, 50, 52, 55, 57, 60, 62, 65, 
+                                68, 70, 73, 75, 78, 80, 83, 85, 87, 90, 92, 95, 97]
+
+# Create Histogram
+plt.hist(cloud_cover_duration_in_mins, bins=10, edgecolor='black')
+
+# Set labels
+plt.title('Histogram of cloud cover duration over a mountain landscape')
+plt.xlabel('Cloud Cover Duration in Minutes')
+plt.ylabel('Frequency')
+
+# Add shadow effect to the bars that contain the center point of the bounding box
+bbox = plt.gca().get_position()
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transformed(plt.gcf().transFigure)
+bbox = bbox.transformed(plt.gcf().transFigure.inverted())
+bbox = bbox.transform

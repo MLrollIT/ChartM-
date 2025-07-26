@@ -1,0 +1,77 @@
+import matplotlib.pyplot as plt
+
+# Given data
+years = ['2015', '2016', '2017', '2018', '2019']
+online_sales = [1.2, 1.5, 1.8, 2.2, 2.8]
+instore_sales = [3.0, 3.1, 3.2, 3.3, 3.5]
+
+plt.figure(figsize=(10,7))
+
+# Plot the data
+plt.stackplot(years, online_sales, instore_sales, labels=['Online sales', 'In-store sales'], colors=['blue', 'orange'])
+
+# Adding legends, title and labels
+plt.title('Online Sales vs In-Store Sales (2015-2019)')
+plt.xlabel('Year')
+plt.ylabel('Sales in millions of dollars')
+plt.legend()
+
+# Modify the linestyle of the edges that contain the center point of the bounding box to 'dotted' and set their color to #413196
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt

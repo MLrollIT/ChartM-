@@ -104,3 +104,6 @@ model_output_path
 - code.py: This file contains the code output by the model and used to generate the chart.
 
 - Edit_figure.png: This is the image of the chart generated from the code.py after modifications have been applied by model.
+
+example:
+`python ./eval_ΔSSIM.py ./test_dataset.json ./example/qwen_box`

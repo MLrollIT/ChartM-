@@ -1,0 +1,52 @@
+from io import StringIO
+import numpy as np
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Define the data
+data = {"Year": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+        "Number of Visits": [5000, 4600, 4700, 4400, 7000, 6900, 4500],
+        "Number of Books Borrowed": [7000, 6000, 9000, 6500, 8000, 12000, 7000]}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Create a figure and axis
+fig, ax = plt.subplots(figsize =(10, 7))
+
+# Create box plot
+bp = ax.boxplot([df["Number of Visits"], df["Number of Books Borrowed"]], patch_artist=True, vert=0, widths=0.5, sym='',
+                labels = ['Number of Visits', 'Number of Books Borrowed'])
+
+# Change color for each box
+colors = ['#0000FF', '#00FF00']
+for patch, color in zip(bp['boxes'], colors):
+    patch.set_facecolor(color)
+
+# Set title and labels
+ax.set_title('Library Visits and Books Borrowed Over the Years')
+ax.set_xlabel('Counts')
+ax.set_ylabel('Categories')
+
+# Show grid
+ax.grid(True)
+
+# Change the figure background color
+fig.set_facecolor('gray')
+
+# Annotate data value on the chart figure
+for i, line in enumerate(bp['medians']):
+    x, y = line.get_xydata()[1]
+    ax.annotate(f'Median: {x}', (x, y), textcoords="offset points", xytext=(10,0), ha='center', fontsize=8)
+
+# Change the median line color of the box that contains the center point of the bounding box to #389d64
+for median in bp['medians']:
+    median.set_color('#389d64')
+
+# Adjust this box's transformation to align with the figure's coordinate system
+for box in bp['boxes']:
+    box.set_transform(box.get_transform().rotate_deg(90))
+
+plt.tight_layout()
+plt.savefig("myplot.png")

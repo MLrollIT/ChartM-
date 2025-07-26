@@ -1,0 +1,77 @@
+import matplotlib.pyplot as plt
+
+# Data
+temperature = [14.2, 16.4, 11.9, 15.2, 18.5, 22.1, 19.4, 25.1, 23.4, 18.1, 22.6, 17.2]
+revenue = [215, 325, 185, 332, 406, 522, 412, 614, 544, 421, 445, 408]
+
+# Create scatter plot
+plt.scatter(temperature, revenue)
+
+# Labels and title
+plt.xlabel("Temperature (°C)")
+plt.ylabel("Revenue ($)")
+plt.title("Relationship between Temperature and Revenue")
+
+# Show plot
+plt.tight_layout()
+plt.savefig("figure.png")
+
+# Modify the points that contain the center point of the bounding box
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().bbox)
+bbox = plt.gca().bbox_to_transform(plt.gca().

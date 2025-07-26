@@ -1,0 +1,88 @@
+import matplotlib.pyplot as plt
+
+species_richness = [8, 12, 15, 19, 23, 27, 31, 35]
+frequency = [2, 5, 8, 10, 6, 3, 2, 1]
+
+plt.hist(species_richness, weights=frequency, bins=range(min(species_richness), max(species_richness) + 2, 2),
+      edgecolor='black')
+
+plt.xlabel('Species Richness')
+plt.ylabel('Frequency')
+plt.title('Distribution of Deep-sea Coral Species Richness in Different Reef Habitats')
+
+plt.tight_layout()
+plt.savefig("figure.png")
+
+# Add a shadow effect to the bars that contain the center point of the bounding box
+bbox = (15, 12, 20, 15)
+shadow_offset = (2.01, 2.88)
+shadow_color = 'gray'
+shadow_style = 'dotted'
+
+for bar in plt.gca().patches:
+    if bbox[0] <= bar.get_x() <= bbox[1] and bbox[2] <= bar.get_y() <= bbox[3]:
+        bar.set_facecolor('none')
+        bar.set_edgecolor(shadow_color)
+        bar.set_linestyle(shadow_style)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.5,rounding_size=5')
+        bar.set_transform(bar.get_transform().rotate(90))
+        bar.set_clip_on(True)
+        bar.set_clip_box(plt.gca().bbox)
+        bar.set_zorder(10)
+        bar.set_boxstyle('square,pad=0.

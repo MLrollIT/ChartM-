@@ -1,0 +1,24 @@
+import matplotlib.pyplot as plt
+
+# Labels for x-axis
+age_groups = ['18-25', '26-35', '36-45', '46-55', '56-65']
+
+# Y-axis data points
+books_read = [5, 7, 6, 4, 3]
+coffee_consumed = [2, 3, 4, 3, 2]
+
+# Create stair plots
+plt.step(age_groups, books_read, where='mid', label='Books Read')
+plt.step(age_groups, coffee_consumed, where='mid', label='Coffee Consumed')
+
+# Adding labels and title
+plt.xlabel("Age Groups")
+plt.ylabel("Average Number")
+plt.title("Relationship between Number of Books Read and Coffee Consumed")
+
+# Displaying legend
+plt.legend(title='Parameters')
+
+# Show the plot
+plt.tight_layout()
+plt.savefig("figure.png")
