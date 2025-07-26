@@ -51,7 +51,6 @@ cd test_dataset
 git clone https://huggingface.co/datasets/Colinyyy/ChartM3
 ```
 
-<<<<<<< HEAD
 To help researchers quickly understand evaluation data, we provide Dataset Viewer at Huggingface Dataset: 🤗 [ChartM3](https://huggingface.co/datasets/Colinyyy/ChartM3).
 
 One example of evaluation data is as follows:
@@ -89,9 +88,4 @@ test_dataset
 - Visual_figure.png: This image is used as input when performing modifications with visual indicators.
   
 We provide the test_dataset in ShareGPT format used under the experimental conditions, as seen in **test_dataset_box.json** and **test_dataset_text.json**.
-=======
-1. Run chart2code task
-```shell
-bash run.sh
-```# ChartMimic -->
->>>>>>> 2f6a68767b2fe32439d0f413cbe38a5c2da0b82d
+
