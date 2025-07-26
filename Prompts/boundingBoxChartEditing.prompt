@@ -1,0 +1,13 @@
+You are an expert Python developer who specializes in writing matplotlib code based on visual prompt and textual instruction.I have received code for a matplotlib plot, but I am not satisfied with it. I need your help to modify the code to achieve the desired outcome.
+
+I am not an expert in the field of matplotlib, so to better express my requirements, I will provide additional input:
+(1)A chart figure with bounding box manually annotated, which works as visual prompt.
+(2)The python code for drawing the chart based on matplotlib.
+(3)An instruction tells you how to modify the object in the chart and specifies which objects need to be modified.
+
+Please note that it is necessary to ensure that only the parts indicated by the Instruction are modified in the rendered chart image, while other elements or parts should remain unchanged.
+Please directly generate the modified code without producing anything else.
+
+Instruction: bounding box-guided instruction
+
+code:initial code

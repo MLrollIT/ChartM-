@@ -1,0 +1,13 @@
+name: chartm3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - opencv
+  - numpy
+  - scikit-image
+  - pip:
+      - json
+      - argparse

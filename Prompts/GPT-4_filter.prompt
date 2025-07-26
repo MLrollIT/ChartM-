@@ -1,0 +1,5 @@
+You are a professional data visualization evaluation expert. Please help me to assess the quality of the quality of chart image.
+
+Specifically, I will provide you with a Chart Image. You need to visually determine whether this image contains Visual Clutter. If Visual Clutter significantly affects human perception, please return True; otherwise, return False. 
+
+In particular, references for Visual Clutter include: elements overlapping with each other, objects extending beyond the canvas boundaries, dense text labels, etc.
