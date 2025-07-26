@@ -18,13 +18,13 @@
 
 ## 🎉 What's New
 
-<<<<<<< HEAD
+
 - **[2025.07.04]** 🥳 ChartM$^3$ is accepted by ACM Multimedia 2025.
 - **[2025.07.07]** 📣 ChartM$^3$ dataset is released on hugging face.
 =======
 
 - **[2025.07.04]** 🥳 ChartM³ is accepted by ACM Multimedia 2025.
->>>>>>> 2f6a68767b2fe32439d0f413cbe38a5c2da0b82d
+
 
 ## 🎏 Introduction
 Chart$\text{M}^3$ is a novel benchmark for multimodal chart editing, enabling fine-grained control over chart modifications through a combination of natural language and visual indicators. It includes 1,000 samples spanning varying levels of complexity and offers comprehensive evaluation metrics for both visual and code accuracy. 
