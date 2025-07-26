@@ -18,8 +18,13 @@
 
 ## 🎉 What's New
 
+<<<<<<< HEAD
 - **[2025.07.04]** 🥳 ChartM$^3$ is accepted by ACM Multimedia 2025.
 - **[2025.07.07]** 📣 ChartM$^3$ dataset is released on hugging face.
+=======
+
+- **[2025.07.04]** 🥳 ChartM³ is accepted by ACM Multimedia 2025.
+>>>>>>> 2f6a68767b2fe32439d0f413cbe38a5c2da0b82d
 
 ## 🎏 Introduction
 Chart$\text{M}^3$ is a novel benchmark for multimodal chart editing, enabling fine-grained control over chart modifications through a combination of natural language and visual indicators. It includes 1,000 samples spanning varying levels of complexity and offers comprehensive evaluation metrics for both visual and code accuracy. 
@@ -50,6 +55,7 @@ cd test_dataset
 git clone https://huggingface.co/datasets/Colinyyy/ChartM3
 ```
 
+<<<<<<< HEAD
 To help researchers quickly understand evaluation data, we provide Dataset Viewer at Huggingface Dataset: 🤗 [ChartM3](https://huggingface.co/datasets/Colinyyy/ChartM3).
 
 One example of evaluation data is as follows:
@@ -87,3 +93,9 @@ test_dataset
 - Visual_figure.png: This image is used as input when performing modifications with visual indicators.
   
 We provide the test_dataset in ShareGPT format used under the experimental conditions, as seen in **test_dataset_box.json** and **test_dataset_text.json**.
+=======
+1. Run chart2code task
+```shell
+bash run.sh
+```# ChartMimic -->
+>>>>>>> 2f6a68767b2fe32439d0f413cbe38a5c2da0b82d
