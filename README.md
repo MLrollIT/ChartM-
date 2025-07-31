@@ -113,10 +113,12 @@ example:
 If you find this repository useful, please consider giving star and citing our paper:
 
 ```
-@inproceedings{Yang2025ChartM3BC,
-  title={ChartM\$^3\$: Benchmarking Chart Editing with Multimodal Instructions},
-  author={Danglu Yang and Liang Zhang and Zihao Yue and Liangyu Chen and Yichen Xu and Wenxuan Wang and Qin Jin},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:280338144}
+@article{yang2025chartm,
+  author = {Donglu Yang and Liang Zhang and Zihao Yue and Liangyu Chen and Yichen Xu and Wenxuan Wang and Qin Jin},
+  title = {ChartM: Benchmarking Chart Editing with Multimodal Instructions},
+  journal = {arXiv:2507.21167 [cs.CV]},
+  year = {2025},
+  url = {https://doi.org/10.48550/arXiv.2507.21167}
 }
+
 ```
