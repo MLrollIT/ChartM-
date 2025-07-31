@@ -115,7 +115,7 @@ If you find this repository useful, please consider giving star and citing our p
 ```
 @article{yang2025chartm,
   author = {Donglu Yang and Liang Zhang and Zihao Yue and Liangyu Chen and Yichen Xu and Wenxuan Wang and Qin Jin},
-  title = {ChartM: Benchmarking Chart Editing with Multimodal Instructions},
+  title = {ChartM³: Benchmarking Chart Editing with Multimodal Instructions},
   journal = {arXiv:2507.21167 [cs.CV]},
   year = {2025},
   url = {https://doi.org/10.48550/arXiv.2507.21167}
