@@ -13,7 +13,7 @@
 <div align="center">
   <!-- <a href="#model">Model</a> • -->
   📚 <a href="https://huggingface.co/datasets/Colinyyy/ChartM3">Data</a> |
-  📃 <a href="https://arxiv.org">Paper</a>
+  📃 <a href="https://arxiv.org/abs/2507.21167">Paper</a>
 </div>
 
 ## 🎉 What's New
@@ -107,3 +107,16 @@ model_output_path
 
 example:
 `python ./eval_ΔSSIM.py ./test_dataset.json ./example/qwen_box`
+
+## 💬 Citation
+
+If you find this repository useful, please consider giving star and citing our paper:
+
+```
+@inproceedings{Yang2025ChartM3BC,
+  title={ChartM\$^3\$: Benchmarking Chart Editing with Multimodal Instructions},
+  author={Danglu Yang and Liang Zhang and Zihao Yue and Liangyu Chen and Yichen Xu and Wenxuan Wang and Qin Jin},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:280338144}
+}
+```
